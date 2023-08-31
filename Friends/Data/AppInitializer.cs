@@ -62,6 +62,7 @@ namespace Friends.Data
                             IsFavorited = true,
                         }
                     );
+                    context.SaveChanges();
                 }
             }
         }
